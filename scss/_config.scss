@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap");
 
-$primary-color: #444;
+$primary-color: #333;
 $secondary-color: #0ed30e;
 $show-home-image: true;
 $home-image: url("../img/background.jpg");
@@ -29,6 +29,15 @@ $background-opacity: 0.6;
         background: rgba($primary-color, $background-opacity);
       }
     }
+  }
+}
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
   }
 }
 
