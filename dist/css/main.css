@@ -107,7 +107,8 @@ body {
   body#bg-img {
     background: url("../img/background.png");
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    resize: both; }
     body#bg-img:after {
       content: "";
       position: absolute;
