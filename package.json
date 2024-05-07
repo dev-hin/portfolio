@@ -4,7 +4,8 @@
   "description": "Responsive portfolio website",
   "main": "index.js",
   "scripts": {
-    "sass": "sass -w scss/main.scss:dist/css/main.css"
+    "sass": "sass -w scss/main.scss:dist/css/main.css",
+    "deploy": "netlify -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/dev-hin/portfolio#readme",
   "dependencies": {
+    "netlify": "^13.1.15",
     "sass": "^1.77.0"
   }
 }
