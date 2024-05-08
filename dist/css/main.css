@@ -131,7 +131,7 @@ body {
   line-height: 1.5;
 }
 body#bg-img {
-  background: url("../img/background.png");
+  background: url("../img/huskybackground.jpg");
   background-attachment: fixed;
   background-size: cover;
   resize: both;
