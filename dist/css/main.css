@@ -166,7 +166,7 @@ h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
-  margin-left: 3rem;
+  margin-left: 3.5rem;
   padding: 0.2rem 1rem;
   letter-spacing: 0.5px;
   text-shadow: 1px 1px 2px black;
@@ -202,7 +202,7 @@ main {
 }
 main .icons {
   margin-top: 1rem;
-  margin-left: 3.5rem;
+  margin-left: 4rem;
 }
 main .icons a {
   padding: 0.4rem;
@@ -216,7 +216,14 @@ main#home {
 }
 main#home h1 {
   margin-top: 20vh;
-  margin-left: 4vw;
+  margin-left: 3rem;
+}
+
+.vegeta {
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  width: 60px;
 }
 
 .about-info {
