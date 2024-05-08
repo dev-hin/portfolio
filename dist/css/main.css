@@ -32,7 +32,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.9;
   visibility: hidden;
 }
 .menu.show {
@@ -51,7 +51,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #373737;
+  background: #262626;
   list-style-type: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
@@ -60,7 +60,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding {
-  background: #444;
+  background: #333;
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out;
 }
@@ -71,7 +71,7 @@
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: solid 4px #2631c8;
+  border: solid 4px #4a7ebb;
   background: url("../img/portrait.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,7 +84,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #2631c8;
+  color: #4a7ebb;
 }
 .menu .nav-link {
   display: inline-block;
@@ -99,7 +99,7 @@
   transition: all 0.5s ease-out;
 }
 .menu .nav-link:hover {
-  color: #2631c8;
+  color: #4a7ebb;
 }
 
 .nav-item:nth-child(1) {
@@ -124,7 +124,7 @@
 
 body {
   font-family: "PT Sans", sans-serif;
-  background: #444;
+  background: #333;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -144,7 +144,7 @@ body#bg-img:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(68, 68, 68, 0.7);
+  background: rgba(51, 51, 51, 0.7);
 }
 
 h1,
@@ -166,15 +166,17 @@ h1.sm-heading,
 h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
+  margin-left: 3rem;
   padding: 0.2rem 1rem;
   letter-spacing: 0.5px;
   text-shadow: 1px 1px 2px black;
   border-radius: 4px;
-  background: rgba(73, 73, 73, 0.3);
+  background: rgba(56, 56, 56, 0.2);
 }
 
 h3 {
-  color: #2631c8;
+  color: #4a7ebb;
+  font-weight: bold;
 }
 
 a {
@@ -189,7 +191,7 @@ header {
 }
 
 .text-secondary {
-  color: #2631c8;
+  color: #4a7ebb;
   font-weight: 600;
   text-shadow: 1px 1px 2px black;
 }
@@ -200,19 +202,21 @@ main {
 }
 main .icons {
   margin-top: 1rem;
+  margin-left: 3.5rem;
 }
 main .icons a {
   padding: 0.4rem;
 }
 main .icons a:hover {
-  color: #2631c8;
+  color: #4a7ebb;
   transition: all 0.5s ease-out;
 }
 main#home {
   overflow: hidden;
 }
 main#home h1 {
-  margin-top: 12vh;
+  margin-top: 20vh;
+  margin-left: 4vw;
 }
 
 .about-info {
@@ -232,7 +236,7 @@ main#home h1 {
   margin: auto;
   height: 250px;
   width: 250px;
-  border: 4px solid #2631c8;
+  border: 4px solid #4a7ebb;
   border-radius: 50%;
 }
 .about-info .bio {
@@ -250,9 +254,9 @@ main#home h1 {
 }
 .about-info .job {
   position: relative;
-  background: #515151;
+  background: #404040;
   padding: 0.75rem;
-  border-bottom: 5px solid #2631c8;
+  border-bottom: 5px solid #4a7ebb;
 }
 
 .projects {
@@ -267,7 +271,7 @@ main#home h1 {
 }
 .projects img:hover {
   opacity: 0.6;
-  border: 3px solid #2631c8;
+  border: 3px solid #4a7ebb;
   transition: all 0.5s ease-out;
 }
 
@@ -287,7 +291,7 @@ main#home h1 {
 }
 .boxes div:hover {
   padding: 0.5rem 1.5rem;
-  background: #2631c8;
+  background: #4a7ebb;
   color: #000;
 }
 .boxes div:hover span {
@@ -301,7 +305,7 @@ main#home h1 {
   margin-bottom: 0.3rem;
 }
 .btn:hover, .btn-light:hover, .btn-dark:hover {
-  background: #2631c8;
+  background: #4a7ebb;
   color: #000;
 }
 
@@ -311,14 +315,14 @@ main#home h1 {
 }
 
 .btn-light {
-  background: #c4c4c4;
+  background: #b3b3b3;
   color: #222;
 }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
+  background: #1a1a1a;
   color: #fff;
   height: 60px;
 }
